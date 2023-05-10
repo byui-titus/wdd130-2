@@ -1,0 +1,83 @@
+.content > div {
+    max-width:1600px ;
+    margin: 0 auto ;
+
+}
+nav a{
+    text-align: center;
+    color: blue;
+    text-decoration: none;
+}
+.home-title{
+    text-align: center;
+    color: blueviolet;
+}
+h4{
+    text-align: center;
+    color: blueviolet;
+}
+.button-box{
+    text-align: center;
+    background-color: #396E94;
+    text-decoration: none;
+}
+.home-grid{
+    text-align: center;
+    font-size: 1.0em;
+}
+.background {
+    height: 725px;
+}
+body {
+    background-color: #97e6e6; 
+}
+header {
+    background-color:rgba(20,30,13, .7);
+}
+nav a:hover {
+    background-color: rgb(97, 110, 117);
+    color: #b1c2ce;
+}
+.join{
+    background-color: rgb(79, 79, 99);
+    color: aqua;
+    text-decoration: none;
+}
+ .button-box:hover{
+    background-color: bisque;
+    color: #b1c2ce;
+ }                   
+.join:hover {
+    background-color: aquamarine;
+    color: #fcfbfb;
+}
+.msg{
+    background: #746868;
+    color: whitesmoke;
+}
+footer{
+    background: #b1c2ce;
+    color: rgb(163, 109, 109);
+}
+footer a{
+    color: #2c5674;
+    text-decoration: none;
+}
+footer a:hover{
+    color: rgb(58, 56, 161);
+}
+.hero-img{
+    width: 100%;
+}
+.logo{
+    width: 80px;
+}
+.card-img{
+    width: 80px;
+}
+footer p {
+    font-size: 1.2em;
+}  
+footer p a:hover {
+    text-decoration: underline;
+}    
