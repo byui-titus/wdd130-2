@@ -1,4 +1,4 @@
-.content {
+#content {
     max-width:1600px ;
     margin: 0 auto ;
 
@@ -6,20 +6,31 @@
 nav a{
     text-align: center;
     color: blue;
-    text-decoration: none;
+    text-decoration: none;padding: 35px;
 }
 .home-title{
     text-align: center;
     color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     text-align: center;
     color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    margin: 0;
 }
 .button-box{
     text-align: center;
     background-color: #396E94;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .home-grid{
     text-align: center;
@@ -29,7 +40,11 @@ h4{
     height: 725px;
 }
 body {
-    background-color: #97e6e6; 
+    background-color: rgba(236, 197, 197, 0.986); 
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:rgba(20,30,13, .7);
@@ -42,6 +57,10 @@ nav a:hover {
     background-color: rgb(79, 79, 99);
     color: aqua;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
  .button-box:hover{
     background-color: bisque;
@@ -54,14 +73,30 @@ nav a:hover {
 .msg{
     background: #746868;
     color: whitesmoke;
+    font-family: serif;
+    line-height: 1.5em;
+    padding: 35px;
+}
+.msg p{
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+.mountains{
+    padding-bottom:15px ;
 }
 footer{
     background: #b1c2ce;
     color: rgb(163, 109, 109);
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color: #2c5674;
     text-decoration: none;
+
+}
+footer .social img{
+    padding-top: 15px;
 }
 footer a:hover{
     color: rgb(58, 56, 161);
@@ -71,9 +106,21 @@ footer a:hover{
 }
 .logo{
     width: 80px;
+    padding-top: 5px;
+}
+.icon.social{
+    text-align: center;
+    width: 80px;
+    padding-top: 10px;
 }
 .card-img{
-    width: 80px;
+    text-align: center;
+    width:200px;
+    padding-top: 10px;
+    border: 10px  #6e5738;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
 }
 footer p {
     font-size: 1.2em;
@@ -81,3 +128,7 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }    
+main section img {
+    box-sizing: border-box;
+}
+
