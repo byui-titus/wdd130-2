@@ -24,6 +24,7 @@ h4{
 }
 h2{
     margin: 0;
+    text-align: center;
 }
 .button-box{
     text-align: center;
@@ -232,4 +233,49 @@ main section img {
         margin-top: 25px;
     }
 }
-            
+
+/*PAGE TWO CSS*/
+.RIVER-title{
+    display: grid;
+    color: rgb(223, 28, 28);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 8em;
+    margin-top: 10px;
+    grid-column: 8/10;
+    grid-row: 1/3;
+    text-align: justify;
+    margin-left: 20px;
+    margin-bottom: 10px;
+
+}  
+.header{
+    display: grid;
+}  
+.header.img{
+    width: 100px;
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    grid-column: 8/10;
+    grid-row: 2/3;  
+    grid-column: 8/10;
+    grid-row: 2/3;
+
+}
+  
+.text p{
+    font-size: .8em;
+    padding-bottom: 20px;
+    padding-left: 0%;
+    padding-right: 0%;
+    
+}
+.header-box{
+    text-align: center;
+    background-color: #396E94;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;  
+}
