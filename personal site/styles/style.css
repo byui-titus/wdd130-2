@@ -70,7 +70,7 @@ h2{
     padding: 0%;
 }
 body {
-    background-color: #f1ebf3; 
+    background-color:#8fa998; 
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     margin: 0;
     padding: 0;
@@ -244,7 +244,7 @@ body {
     margin-right: 170px;
 }
 footer{
-    background: #b1c2ce;
+    background: #5d4e6d;
     color: rgb(163, 109, 109);
     padding: 25px 50px;
     margin-top: 200px;
@@ -253,7 +253,7 @@ footer{
     align-items: center;
 }
 footer a{
-    color: #2c5674;
+    color: #4f345a;
     text-decoration: none;
 
 }
