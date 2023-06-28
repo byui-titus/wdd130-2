@@ -257,6 +257,9 @@ footer a{
     text-decoration: none;
 
 }
+footer .social{
+    display: grid;
+}
 footer .social img{
     padding-top: 15px;
 }
