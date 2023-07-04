@@ -341,3 +341,143 @@ footer .social img{
 footer a:hover{
     color: rgb(58, 56, 161);
 } 
+/* OPPORTUNITIES CSS*/
+.wel-msg{
+    text-align: center;
+
+}
+#welcome p:nth-of-type(1){
+    font-size: 1.2em;
+    color: rgb(129, 42, 61);
+   text-align: center;
+    margin-top: -20px; 
+    font-size: 1.3em;
+    text-transform: capitalize;
+}
+h6{
+    color: #4f345a;
+    text-decoration: solid;
+    padding: 0%;
+    font-family: permanent marker;
+    font-size: 1.5em;
+    margin-left: 200px;
+}
+#category p:nth-of-type(1){
+    font-size: 1.2em;
+    color: rgb(129, 42, 61);
+    margin-left: 300px;
+    margin-top: -40px;
+    font-size: 1.3em;
+    text-transform: capitalize;
+}
+
+.job1{
+    margin-right:auto;
+    text-align: left;
+    margin-left: 20px; 
+}
+.camp-logo{
+    width: 200px;
+    height: 100px;
+}
+.job1-h{
+    margin-left: 210px;
+    margin-top: -80px;
+    margin-bottom: 100px;
+    font-size: 1.3em;
+    font-family: ;
+    color: rgb(119, 245, 108);
+}
+.job1 p:nth-of-type(1){
+    color: rgb(129, 42, 61); 
+    margin-left:50px ;
+    margin-top: -30px;
+    font-size: 1.3em;
+}
+.job1 ul:nth-of-type(1){
+    color: rgb(129, 42, 61); 
+    margin-left:50px ;
+    font-size: 1.2em;
+}
+.job2{
+    margin-right:auto;
+    text-align: left;
+    margin-left: 20px;
+}
+.camp-logo2{
+    width: 200px;
+    height: 100px;
+}
+.job2-h{
+    margin-left: 210px;
+    margin-top: -80px;
+    margin-bottom: 100px;
+    font-size: 1.3em;
+    color: rgb(119, 245, 108);  
+}
+.job2 p:nth-of-type(1){
+    color: rgb(129, 42, 61); 
+    margin-left:50px ;
+    margin-top: -30px;
+    font-size: 1.3em
+}
+.job2 ul:nth-of-type(1){
+    color: rgb(129, 42, 61); 
+    margin-left:50px ;
+    font-size: 1.2em;
+}
+.camp-logo3{
+    width: 200px;
+    height: 100px;
+    margin-left:600px ;
+    margin-right:0px ;
+    margin-top:-900px ;
+    margin-bottom: 500px;
+}
+.job3-h{
+    font-size: 1.3em;
+    color: rgb(119, 245, 108); 
+    margin-top: -580px;
+    margin-bottom: 100px;
+    margin-left:820px ;
+}
+.job3 p:nth-of-type(1){
+    color: rgb(129, 42, 61); 
+    font-size: 1.2em;
+    margin-right:200px ;
+    margin-left: 700px;
+    margin-top: -40px;
+}
+.job3 ul:nth-of-type(1){
+    color: rgb(129, 42, 61); 
+    font-size: 1.2em;
+    margin-right:300px ;
+    font-display: right;
+    margin-left: 750px;
+
+}
+.camp-logo4{
+    width: 200px;
+    height: 100px;
+    margin-left: 600px;
+    margin-top: -500px;
+    margin-bottom: 200px;
+}
+.job4-h{
+    margin-left: 850px;
+    margin-top: -280px;
+    margin-bottom: 100px;
+    font-size: 1.3em;
+    color: rgb(119, 245, 108);
+}
+.job4 p:nth-of-type(1){
+    margin-top:-40px ;
+    margin-left: 700px;
+    color: rgb(129, 42, 61); 
+    font-size: 1.2em;
+}
+.job4 ul:nth-of-type(1){
+    margin-left: 750px;
+    color: rgb(129, 42, 61); 
+    font-size: 1.2em;
+}
