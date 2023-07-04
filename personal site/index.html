@@ -17,10 +17,27 @@
         <a href="page2.html">Opportunities</a>
         <a href="aboutus.html">About us</a>
     </nav>
-    <div class="search">
-    <input type="text" placeolders="search...">
-    <button>search</button>
-    </div>
+    <!-- The form -->
+    <div id="myOverlay" class="overlay">
+        <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+        <div class="overlay-content">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+      </div>
+      <button class="openBtn" onclick="openSearch()">Open Search Box</button>
+      
+      <script>
+      function openSearch() {
+        document.getElementById("myOverlay").style.display = "block";
+      }
+      
+      function closeSearch() {
+        document.getElementById("myOverlay").style.display = "none";
+      }
+      </script>
 <!--/* backgound image=url('searcg.svg') */ 
 pading 8px 20px 8px 45px
 width 160px
