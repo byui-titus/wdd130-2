@@ -89,13 +89,19 @@
 }
 
 nav a{
-    display:inline;
-    text-align: center;
+   
+    text-align: auto;
     color: rgb(110, 110, 212);
     font-size: 2em;
     justify-content:center;
     margin-left:210px;
-    font-family: permanent marker;  
+    font-family: permanent marker;
+    margin-top: -200px;  
+    margin-bottom: 100px;
+}
+nav a:hover {
+    background-color: rgb(97, 110, 117);
+    color: #b1c2ce;
 }
 .logo{
     width: 200px;
@@ -146,12 +152,13 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .home-grid{
     display: grid;
     text-align:auto;
     width: 50%;
     justify-content: stretch;
-  
+
 }
 .news1{
     margin-right:auto;
@@ -232,6 +239,10 @@ body {
     padding: 0%;
     font-family: permanent marker;
 }
+.more1:hover{
+    background-color: rgb(97, 110, 117);
+    color: #b1c2ce;
+}
 .button-box2{
     text-align: right;
     margin-right: 80px;
@@ -248,6 +259,10 @@ body {
     color: blueviolet;
     padding: 0%;
     font-family: permanent marker;
+}
+.more2:hover{
+    background-color: rgb(97, 110, 117);
+    color: #b1c2ce;
 }
 .ent1{
     text-align: right;
