@@ -89,15 +89,15 @@
 }
 
 nav a{
-   
+    display: flex;
     text-align: auto;
     color: rgb(110, 110, 212);
     font-size: 2em;
     justify-content:center;
     margin-left:210px;
     font-family: permanent marker;
-    margin-top: -200px;  
-    margin-bottom: 100px;
+    margin-top: -180px;
+    margin-bottom:200px;
 }
 nav a:hover {
     background-color: rgb(97, 110, 117);
